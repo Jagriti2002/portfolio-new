@@ -1,0 +1,729 @@
+/* Responsive Design */
+@media (max-width: 1201px) {
+    /* custom css */
+    h1 {
+        font-size: 65px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    h7{
+        font-size: 25px;
+    }
+    .main-btn{
+        width: 180px;
+        height: 50px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        font-size: 15px;
+    }
+    .banner-img{
+        height: 450px;
+        margin-bottom: 2rem;
+    }
+    .banner-btn{
+        margin-left: 10%;
+    }
+    .banner-btn a{
+        font-size: 15px;
+    }
+    .button-img{
+        width: 30px;
+        height: 28px;
+    }
+    .middle-img2 img{
+        width: 200px;
+        margin: -80px 0 0 900px;
+    } 
+    .education-container{
+        width: 450px;
+    }
+    .tranding-slider-control .swiper-button-next {
+        left: 54% !important;
+        transform: translateX(-54%) !important;
+    } 
+    .tranding-slider-control .slider-arrow {
+        left: 46%;
+        transform: translateX(-46%);
+    }    
+    /* Testimonial */
+    .testimonial .swiper-button-next {
+        left: 54% !important;
+        transform: translateX(-54%) !important;
+    }
+    .nav-btn{
+        left: 46%;
+        transform: translateX(-46%);
+    }
+    .contact-content{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .contact_wrapper .contact-form{
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+@media (min-width:991px){
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    /* custom css */ 
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h7 {
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: 2rem;
+    }
+    p{
+        text-align: center;
+    }
+    .banner-btn{
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wave-img{
+        display: none;
+    }
+    .middle-img2 img{
+        width: 200px;
+        margin: -80px 0 0 660px;
+    }
+    .sidebar{
+        display: none;
+    }
+    /*  Navbar */
+    .header_wrapper .navbar-brand img {
+        max-width: 100px;
+    }
+    .header-scrolled {
+        height: auto;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+        left: 0px;
+    }
+    .header_wrapper .navbar-brand img {
+        max-width: 67px;
+        height: auto;
+    }
+    /* banner */
+    .banner_wrapper {
+        padding-top: 70px;
+    }
+    .banner_wrapper .wave-container img{
+        display: none;
+    }
+    /* Middle */
+    .middle-btn a{
+        font-size: 12px;
+    }
+    /* About */
+    .about_wrapper{
+        height: 100%;
+    }
+    .about_wrapper .container{
+        max-width: 1200px;
+    }
+    .about-banner{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_wrapper ul.nav-pills{
+        border: none;
+    }
+    .about_wrapper .single-progress{
+       text-align: left;
+    }
+    .education-slide-container .nav-btn{
+        left: 65%;
+    }
+    .education-slide-container .testimonial .swiper-button-next {
+        left: 70% !important;
+    }
+    /* Technology */
+    .technology_wrapper .technology-container .card{
+        width: 300px;
+    }
+    .technology_wrapper .technology-container .frontend .card{
+        margin-top: 0;        
+    }
+    .technology_wrapper .technology-container .card .backend-language{
+        margin-top: 0;
+    }
+    .technology_wrapper .technology-container .card .backend-language h3{
+        margin-top: 20px;
+    }
+    .technology_wrapper .technology-container .card h10{
+        font-size: 15px;
+    }
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 50rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 350px;
+        margin-left: -300px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        max-width: 250px;
+        margin: 110px 0 0 -330px;
+    }
+    
+    /* Footer */
+}
+@media (max-width: 767px) {
+    /* custom css */
+    h1{
+        font-size: 25px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .middle-img img{
+        width: 150px;
+    }
+    .middle-img2 img{
+        width: 200px;
+        margin: -80px 0 0 560px;
+    }
+    /*  Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 250px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .banner_wrapper .banner-img img{
+        height: 300px;
+    }
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+       font-size: 13px;
+    }
+    /* About Internship */
+    .about_wrapper .internship-heading h2{
+        font-size: 30px;
+    }
+    .timeline__item .internship-topic{
+        width: 300px;
+        height: 175px;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 15px;
+    }
+    .timeline__date{
+        font-size: 10px;
+    }
+    /* About Education */
+    .education-container{
+        width: 450px;
+    }
+    .education-slide-container .nav-btn{
+        left: 65%;
+    }
+    .education-slide-container .testimonial .swiper-button-next {
+        left: 72% !important;
+    }
+    .technology_wrapper .technology-container .card{
+        width: 300px;
+        margin-left: 0px;  
+    }
+    /* Services */
+    .service_wrapper .card .content .details{
+        transform: translateY(145px);
+    }
+    .hover-text p{
+        font-size: 20px;
+    }
+    /* Design */
+    .design_wrapper{
+        background-image: none;
+    }
+    .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+        width: 3px;
+        height: 3px;
+    } 
+    .tranding-slider-control .swiper-button-next {
+        left: 56% !important;
+        transform: translateX(-56%) !important;
+    } 
+    .tranding-slider-control .slider-arrow {
+        left: 44%;
+        transform: translateX(-44%);
+    } 
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 50rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 300px;
+        margin-left: -300px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -330px;
+        max-width: 200px;
+        margin-top: 130px;
+    }
+    .testimonial .swiper-button-next {
+        left: 56% !important;
+        transform: translateX(-56%) !important;
+    }
+    .nav-btn{
+        left: 44%;
+        transform: translateX(-44%);
+        top: 55%;
+    }
+    /* Footer */
+    .footer_wrapper .logo img{
+        width: 100px;
+    }
+    .footer-navlinks a{
+        font-size: 15px;
+    }
+    .footer-socials i{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .footer-content h2{
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px) {
+    /* custom css */
+    .middle-img2 img{
+        margin-left: 380px;
+        width: 130px;
+        margin-top: -50px;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    .hero-bg-2{
+        display: none;
+    }
+    /* Navbar */
+    .profile-img{
+        width: 70px;
+        margin: -1rem 0 0 1rem;
+    }
+    .profile-heading h3{
+        font-size: 15px;
+        margin: -1rem 0 0 0rem;
+    }
+    .header_wrapper .navbar-brand img{
+        max-width: 60px;
+    }
+    .about_wrapper{
+        padding: 160px 0 100px 0;
+    }
+    /* About Education */
+    .education-container{
+        width: 400px;
+        margin-left: -6rem;
+    }
+    .education-heading{
+        margin: 1.5rem;
+    }
+    .education-heading h3{
+        font-size: 12px;
+    }
+    .education-title p{
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .education-info li{
+        font-size: 18px;
+        text-align: left;
+    }  
+    .education-img{
+        margin: 1rem 0 -1rem 0;
+    } 
+    .education-slide-container .nav-btn{
+        left: 70%;
+    }
+    .education-slide-container .testimonial .swiper-button-next {
+        left: 83% !important;
+    }
+    .education-container{
+        width: 100%;
+    }
+    /* Services */
+    .hover-text p{
+        font-size: 15px;
+    }
+    /* Design */
+    .design_wrapper{
+        background-image: none;
+    }
+    .design-container .tranding-slider {
+        height: 45rem;
+    }
+    .tranding-slide {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide .tranding-slide-img img {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide:hover .effect-text{
+        width: 28rem !important;
+        height: 36rem !important;
+        left: 0;
+    }
+    .tranding-slide .effect-text .inner h2{
+        font-size: 25px;
+    }
+    .tranding-slide .effect-text .inner p{
+        font-size: 25px;
+    }
+    .tranding-slide .effect-text .inner .design-btn{
+        margin: 0 0 0 25%;
+    }
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 37rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 250px;
+        margin-left: -250px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -230px;
+    }
+    /* Contact */
+    .contact-heading h2{
+        font-size: 20px;
+    }
+    .socail-icon h3{
+        font-size: 20px;
+    }
+    .bg-img{
+        display: none;
+    }
+    .tag-btn{
+        width: 100%;
+    }
+    /* Footer */
+    .footer_wrapper .logo img{
+        width: 80px;
+    }
+    .footer-socials{
+        gap: .50rem;
+    }
+    .footer-socials i{
+        width: 1.7rem;
+        height: 1.7rem;
+        font-size: .75rem;
+    }
+    .footer-content h2{
+        font-size: 10px;
+    }
+}
+@media (max-width: 450px)   {
+    /* custom css */
+    .middle-img{
+        width: 100px;
+        margin-top: -150px;
+    }
+    .logo-img{
+        width: 80px;
+        margin: 10px 0 0 15px;
+    }
+    .middle-img2 img{
+        width: 100px;
+        margin: -30px 0 0 250px;
+    }
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 150px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .h2{
+        font-size: 25px;
+        line-height: 45px;
+    }
+    h3{
+        margin-top: 3rem;
+        font-size: 18px;
+    }
+    h5{
+        font-size: 20px;
+        margin: -68px 0 0 20px;
+    }
+    .banner-img{
+        margin-top: 3rem;
+    }
+    .banner-btn a{
+        font-size: 12px;
+    }
+    .button-img{
+        width: 25px;
+        height: 25px;
+    }
+    .banner-btn{
+        margin-top: 1rem;
+        margin-left: 0;
+        gap: .50rem;
+    }
+    .banner_wrapper .shape-2 {
+        right: 18rem;
+        top: 30rem;
+    }
+    /* About Internship */
+    .internship-heading{
+        font-size: 15px;
+    }
+    .timeline__item .internship-topic{
+        width: 200px;
+        height: 175px;
+        margin-left: -3rem;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 13px;
+    }
+    .timeline__item::before{
+        margin-left: -3rem;
+    }
+    .circle__dot{
+        margin-left: -3rem;
+    }
+    .education-slide-container .nav-btn{
+        left: 70%;
+    }
+    .education-slide-container .testimonial .swiper-button-next {
+        left: 85% !important;
+    }
+    .education-title p{
+        font-size: 10px;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+    }  
+    .education-img{
+        margin: .20rem 0 -3rem 0;
+    } 
+    /* Services */
+    .service_wrapper .card .content .details h2{
+        font-size: 18px;
+    }
+    .service_wrapper .card .content .details{
+        transform: translateY(150px);
+    }
+    .tranding-slide {
+        width: 20rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide .tranding-slide-img img {
+        width: 20rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide:hover .effect-text{
+        width: 20rem !important;
+        height: 36rem !important;
+        left: 0;
+    }
+    .tranding-slide .effect-text .inner h2{
+        font-size: 20px;
+    }
+    .tranding-slide .effect-text .inner p{
+        font-size: 20px;
+    }
+    .tranding-slide .effect-text .inner .design-btn{
+        margin: 0 0 0 20%;
+    }
+    .tranding-slider-control .swiper-button-next {
+        left: 58% !important;
+        transform: translateX(-58%) !important;
+    } 
+    .tranding-slider-control .slider-arrow {
+        left: 42%;
+        transform: translateX(-42%);
+    } 
+    /* Testimonials */
+    .testimonials_wrapper .testimonial-img1{
+        width: 200px;
+        margin-left: -200px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        max-width: 140px;
+        margin: 180px 0 0 -230px;
+    }
+    .nav-btn{
+        left: 40%;
+        top: 50%;
+    }
+    /* Contact */
+    .contact-heading h2{
+        width: 100%;
+    }
+    .socail-icon i{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .socail-icon h3{
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    .contact_wrapper .contact-form .contact-form-heading h6{
+        font-size: 15px;
+    }
+    .contact_wrapper .contact-form{
+        width: 100%;
+    }
+    /* Footer */
+    .footer-navlinks{
+        gap: 1rem;
+    }
+}   
+@media (max-width: 350px)   {
+    p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 100px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .h2{
+        font-size: 20px;
+    }
+    .banner-btn a{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .button-img{
+        width: 20px;
+        height: 20px;
+    }
+    .main-btn{
+        height: 40px;
+    }
+    /* Middle1 */
+    .middle1_wrapper .middle1-container .card{
+        width: 200px;
+        height: 187.63px;
+    }
+    .middle1_wrapper .card-body h2{
+        font-size: 20px;
+    }
+    .middle-btn{
+        left: 10%;
+    }
+    /* About Internship */
+    .about_wrapper .internship-heading h2{
+        font-weight: 0;
+        font-size: 20px;
+        line-height: 61px;
+    }
+    .timeline__item .internship-topic{
+        width: 200px;
+        height: 175px;
+        margin-left: -4rem;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 13px;
+    }
+    .timeline__item::before{
+        margin-left: -3.5rem;
+    }
+    .circle__dot{
+        margin-left: -3.5rem;
+    }
+    .education-info li{
+        font-size: 10px;
+        text-align: left;
+    }
+    .technology_wrapper .technology-container .card{
+        width: 210px;
+        margin-left: 0px;  
+    }
+    .technology_wrapper .technology-container .card h10{
+        font-size: 10px;
+    }
+    .technology_wrapper .technology-container .card .backend-language img{
+        width: 25px;
+    }
+    .technology_wrapper .technology-container .card .backend-language h3{
+        font-size: 13px;
+    }
+    .technology_wrapper .technology-container .card i{
+        width: 40px;
+        height: 40px;
+    }
+    /* Services */
+    .service_wrapper .card .content .details{
+        transform: translateY(120px);
+    }
+    /* Design */
+    .tranding-slide {
+        width: 17rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide .tranding-slide-img img {
+        width: 17rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide:hover .effect-text{
+        width: 17rem !important;
+        height: 36rem !important;
+        left: 0;
+    }
+    .tranding-slide .effect-text .inner h2{
+        font-size: 18px;
+    }
+    .tranding-slide .effect-text .inner p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .tranding-slide .effect-text .inner .design-btn{
+        margin: 0 0 0 15%;
+    }
+    .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+        width: 2px;
+        height: 2px;
+    } 
+    .tranding-slider-control .swiper-pagination {
+        bottom: 1rem;
+        top: -.70rem;
+    } 
+    .tranding-slider-control .slider-arrow {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .tranding-slider-control .slider-arrow ion-icon {
+        font-size: 0.75rem;
+    }
+}     
